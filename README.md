@@ -1,0 +1,1 @@
+# szmery.github.io
