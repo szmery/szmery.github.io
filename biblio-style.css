@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+   font size: 11px;
+}
+
+.wrapper{
+ 
+    width: 2000px;
+    margin 0 auto;
+    overflow: auto;
+    
+}
+
+.menu{
+    width: 200px;
+    float: left;         
+    }
+
+.logo{ 
+    background: transparent url("pic.gif") no-repeat center;
+    height: 95px;
+    margin-right: 10px;
+}
+
+.menu>ul{
+    padding:0;
+    
+}
+
+.menu>ul>li{
+    list-style-type: none;}
+
+.menu>ul>li>a{
+    display: block;
+    border: none;
+    padding: 8px;
+   margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 14px; 
+    
+}
+.content{
+    border: 1px dashed black;
+    width: 800px;
+    margin-left: 200px;
+    padding: 20px;
+}
