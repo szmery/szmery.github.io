@@ -1,24 +1,25 @@
 body {
-    font-family: sans-serif;
-   font size: 11px;
+    font-family: Garamond;
+   font size: 14px;
+    
 }
 
 .wrapper{
  
-    width: 2000px;
-    margin 0 auto;
-    overflow: auto;
-    
+    width: 1280px;
+   margin: 0 auto;
+      
 }
 
 .menu{
     width: 200px;
-    float: left;         
+    float: left; 
+    
     }
 
 .logo{ 
     background: transparent url("pic.gif") no-repeat center;
-    height: 95px;
+    height: 195px;
     margin-right: 10px;
 }
 
@@ -32,18 +33,28 @@ body {
 
 .menu>ul>li>a{
     display: block;
-    border: none;
     padding: 8px;
    margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
-    color: #000;
+    text-align: left;
     font-size: 14px; 
+    color:black;
     
 }
 .content{
-    border: 1px dashed black;
-    width: 800px;
+    width: 600px;
     margin-left: 200px;
     padding: 20px;
+    
+}
+
+.footer {
+     width: 1280px;
+  margin-left: 210px;
+     padding: 8px;
+     font-size: 14px; 
+    color:black;
+    
+    
+    
 }
